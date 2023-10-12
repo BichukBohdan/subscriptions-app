@@ -58,7 +58,7 @@ const UserProfile = () => {
           text="Logout"
           borderRadius="10px"
           width="full"
-          onClick={() => {setIsLogged(false)}}
+          onClick={() => { setIsLogged(false); }}
         />
       </div>
     </div>
